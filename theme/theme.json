@@ -1,12 +1,11 @@
 {
-    "title": "Diasa Demo Totalplay",
+    "title": "ORO Virtual Asistant DEMO",
     "subTitle": "",
-    "styles": ["../css/diasa.css"],
+    "styles": ["../css/oro.css"],
     "fonts": ["../fonts/fonts.css"],
-    "placeholder": "Escribe tu mensaje aquí",
+    "placeholder": "Escreve a tua mensagem aqui",
     "isMarkdown": true,
     "chatHistory": "off",
-    "answerRating": "always",
     "cardOptions": {
       "direction": "horizontal",
       "slidesPerView": 1.5,
