@@ -41,7 +41,7 @@
 }
 #bsc-chat-container .bsc-header-details-image {
   border-radius: 50%;
-  background-image: url("http://localhost:3000/src/private-themes/diasa/images/diasa_logo.png");
+  background-image: url("../images/diasa_logo.png");
   background-repeat: no-repeat, no-repeat;
   background-size: cover;
   background-position: 50% 50%;
@@ -60,16 +60,16 @@
   font-weight: 400;
 }
 #bsc-chat-container .bsc-header-action-minimize-icon {
-  mask-image: url("http://localhost:3000/src/private-themes/diasa/icons/minimize.svg");
-  -webkit-mask-image: url("http://localhost:3000/src/private-themes/diasa/icons/minimize.svg");
+  mask-image: url("../icons/minimize.svg");
+  -webkit-mask-image: url("../icons/minimize.svg");
   background-color: #fff;
 }
 #bsc-chat-container .bsc-header-action-minimize-icon:hover {
   opacity: 1;
 }
 #bsc-chat-container .bsc-header-action-close-icon {
-  mask-image: url("http://localhost:3000/src/private-themes/diasa/icons/close.svg");
-  -webkit-mask-image: url("http://localhost:3000/src/private-themes/diasa/icons/close.svg");
+  mask-image: url("../icons/close.svg");
+  -webkit-mask-image: url("../icons/close.svg");
   background-color: #fff;
 }
 #bsc-chat-container .bsc-header-action-close-icon:hover {
@@ -89,7 +89,7 @@
   margin-bottom: 10px;
 }
 #bsc-chat-container .bsc-message-list .bsc-message-list-container .bsc-local .bsc-message {
-  background-color: #95a6b1;
+  background-color: #3d4144;
   color: white;
   border-radius: 15px 15px 0 15px;
 }
@@ -118,7 +118,7 @@
 #bsc-chat-container .bsc-message-list .bsc-message-list-container .bsc-remote .bsc-message .dot-1,
 #bsc-chat-container .bsc-message-list .bsc-message-list-container .bsc-remote .bsc-message .dot-2,
 #bsc-chat-container .bsc-message-list .bsc-message-list-container .bsc-remote .bsc-message .dot-3 {
-  background-color: #95a6b1;
+  background-color: #3d4144;
 }
 #bsc-chat-container .bsc-message-list .bsc-message-list-container .bsc-local .bsc-message-menuButtons-title,
 #bsc-chat-container .bsc-message-list .bsc-message-list-container .bsc-remote .bsc-message-menuButtons-title {
@@ -132,9 +132,9 @@
   padding: 0.25rem 0.5rem;
   border-radius: 6px;
   color: white;
-  background-color: #95a6b1;
+  background-color: #3d4144;
   border: inherit;
-  border-color: #95a6b1;
+  border-color: #3d4144;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 #bsc-chat-container .bsc-message-list .bsc-message-list-container .bsc-local .bsc-message-menuButtons-vertical :hover, #bsc-chat-container .bsc-message-list .bsc-message-list-container .bsc-local .bsc-message-menuButtons-horizontal :hover, #bsc-chat-container .bsc-message-list .bsc-message-list-container .bsc-local .bsc-message-menuButtons-grid :hover,
@@ -153,14 +153,14 @@
   line-height: 21px;
   padding: 0.375rem 0.75rem;
   border-radius: 0.2rem;
-  background-color: #95a6b1;
+  background-color: #3d4144;
   border: inherit;
-  border-color: #95a6b1;
+  border-color: #3d4144;
   color: #fff;
 }
 #bsc-chat-container .bsc-message-list .bsc-message-list-container .bsc-local .bsc-message-document button .bsc-message-document-icon,
 #bsc-chat-container .bsc-message-list .bsc-message-list-container .bsc-remote .bsc-message-document button .bsc-message-document-icon {
-  background-image: url("http://localhost:3000/src/private-themes/diasa/icons/file.png");
+  background-image: url("../icons/file.png");
 }
 #bsc-chat-container .bsc-message-list .bsc-message-list-container .bsc-local .bsc-message-document button:hover,
 #bsc-chat-container .bsc-message-list .bsc-message-list-container .bsc-remote .bsc-message-document button:hover {
@@ -199,7 +199,7 @@
 #bsc-chat-container .bsc-message-list .bsc-message-list-container .bsc-local .bsc-message-cards .swiper-button,
 #bsc-chat-container .bsc-message-list .bsc-message-list-container .bsc-remote .bsc-message-cards .swiper-button {
   border-radius: 6px;
-  background-color: #95a6b1;
+  background-color: #3d4144;
 }
 #bsc-chat-container .bsc-message-list .bsc-message-list-container .bsc-local .bsc-message-cards .swiper-button-disabled,
 #bsc-chat-container .bsc-message-list .bsc-message-list-container .bsc-remote .bsc-message-cards .swiper-button-disabled {
@@ -221,8 +221,8 @@
 #bsc-chat-container .bsc-message-list .bsc-message-list-container .bsc-local .bsc-message-cards .swiper-button-prev:after,
 #bsc-chat-container .bsc-message-list .bsc-message-list-container .bsc-remote .bsc-message-cards .swiper-button-prev:after {
   color: transparent;
-  mask-image: url("http://localhost:3000/src/private-themes/diasa/icons/left.svg");
-  -webkit-mask-image: url("http://localhost:3000/src/private-themes/diasa/icons/left.svg");
+  mask-image: url("../icons/left.svg");
+  -webkit-mask-image: url("../icons/left.svg");
   mask-repeat: no-repeat, no-repeat;
   -webkit-mask-repeat: no-repeat, no-repeat;
   mask-size: 20px;
@@ -235,8 +235,8 @@
 #bsc-chat-container .bsc-message-list .bsc-message-list-container .bsc-local .bsc-message-cards .swiper-button-next:after,
 #bsc-chat-container .bsc-message-list .bsc-message-list-container .bsc-remote .bsc-message-cards .swiper-button-next:after {
   color: transparent;
-  mask-image: url("http://localhost:3000/src/private-themes/diasa/icons/right.svg");
-  -webkit-mask-image: url("http://localhost:3000/src/private-themes/diasa/icons/right.svg");
+  mask-image: url("../icons/right.svg");
+  -webkit-mask-image: url("../icons/right.svg");
   mask-repeat: no-repeat, no-repeat;
   -webkit-mask-repeat: no-repeat, no-repeat;
   mask-size: 20px;
@@ -289,9 +289,9 @@
   line-height: 21px;
   padding: 0.375rem 0.75rem;
   color: white;
-  background-color: #95a6b1;
+  background-color: #3d4144;
   border: inherit;
-  border-color: #95a6b1;
+  border-color: #3d4144;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   align-items: center;
   max-width: 100%;
@@ -355,8 +355,8 @@
 #bsc-chat-container .bsc-footer #bsc-footer-actions #bsc-mic-button {
   border: none;
   background: white;
-  mask-image: url("http://localhost:3000/src/private-themes/diasa/icons/mic.svg");
-  -webkit-mask-image: url("http://localhost:3000/src/private-themes/diasa/icons/mic.svg");
+  mask-image: url("../icons/mic.svg");
+  -webkit-mask-image: url("../icons/mic.svg");
   mask-repeat: no-repeat, no-repeat;
   -webkit-mask-repeat: no-repeat, no-repeat;
   mask-size: 24px;
@@ -376,11 +376,11 @@
 }
 #bsc-chat-container .bsc-footer #bsc-footer-actions #bsc-send-button {
   border: none;
-  background-color: black;
+  background-color: #484f56;
   margin-right: 5px;
   margin-left: 10px;
-  mask-image: url("http://localhost:3000/src/private-themes/diasa/icons/send.svg");
-  -webkit-mask-image: url("http://localhost:3000/src/private-themes/diasa/icons/send.svg");
+  mask-image: url("../icons/send.svg");
+  -webkit-mask-image: url("../icons/send.svg");
   mask-repeat: no-repeat, no-repeat;
   -webkit-mask-repeat: no-repeat, no-repeat;
   mask-size: 15px;
@@ -391,7 +391,7 @@
 }
 
 .bsc-chat-minimized {
-  background-image: url("http://localhost:3000/src/private-themes/diasa/images/diasa_logo.png");
+  background-image: url("../images/diasa_logo.png");
   background-repeat: no-repeat, no-repeat;
   background-size: cover;
   background-position: 50% 50%;
