@@ -5,6 +5,7 @@
     "fonts": ["../fonts/fonts.css"],
     "placeholder": "Escreve a tua mensagem aqui",
     "isMarkdown": true,
+    "answerRating": "always",
     "chatHistory": "off",
     "cardOptions": {
       "direction": "horizontal",
