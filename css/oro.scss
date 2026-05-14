@@ -31,7 +31,7 @@
 
   //max-width: 350px;
   width: 350px;
-  z-index: 20;
+  z-index: 9999999;
 
   bottom: 20px;
   right: 20px;
@@ -51,7 +51,7 @@
 
       &-image {
         border-radius: 50%;
-        background-image: url("../images/diasa_logo.png");
+        background-image: url("../images/oro-logo.png");
         background-repeat: no-repeat, no-repeat;
         background-size: cover;
         background-position: 50% 50%;
@@ -443,10 +443,18 @@
       }
     }
   }
+
+  @media (max-width: 768px) {
+    .bsc-header,
+    .bsc-footer {
+        border-radius: 0;
+    }
+  }
+
 }
 
 .bsc-chat-minimized {
-  background-image: url("../images/diasa_logo.png");
+  background-image: url("../images/oro-logo.png");
   background-repeat: no-repeat, no-repeat;
   background-size: cover;
   background-position: 50% 50%;

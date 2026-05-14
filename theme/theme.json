@@ -2,7 +2,7 @@
     "title": "ORO Virtual Asistant DEMO",
     "subTitle": "",
     "styles": ["../css/oro.css"],
-    "fonts": ["../fonts/fonts.css"],
+    "fonts": ["../fonts.css"],
     "placeholder": "Escreve a tua mensagem aqui",
     "isMarkdown": true,
     "answerRating": "always",
