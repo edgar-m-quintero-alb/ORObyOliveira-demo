@@ -1,0 +1,69 @@
+@font-face {
+  font-family: "Barlow";
+  font-weight: 300;
+  font-style: normal;
+  src: url("${CHAT_COMPONENT_THEMES_URL}/private-themes/oroOliveira/fonts/7cHqv4kjgoGqM7E3p-ks51oq.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Barlow";
+  font-weight: 400;
+  font-style: normal;
+  src: url("${CHAT_COMPONENT_THEMES_URL}/private-themes/oroOliveira/fonts/7cHpv4kjgoGqM7E_DMs_.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Barlow";
+  font-weight: 600;
+  font-style: normal;
+  src: url("${CHAT_COMPONENT_THEMES_URL}/private-themes/oroOliveira/fonts/7cHqv4kjgoGqM7E30-8s51oq.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Barlow";
+  font-weight: 700;
+  font-style: normal;
+  src: url("${CHAT_COMPONENT_THEMES_URL}/private-themes/oroOliveira/fonts/7cHqv4kjgoGqM7E3t-4s51oq.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Barlow Semi Condensed";
+  font-weight: 300;
+  font-style: normal;
+  src: url("${CHAT_COMPONENT_THEMES_URL}/private-themes/oroOliveira/fonts/wlpigxjLBV1hqnzfr-F8sEYMB0Yybp0mudRf06i_B2sj.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Barlow Semi Condensed";
+  font-weight: 400;
+  font-style: normal;
+  src: url("${CHAT_COMPONENT_THEMES_URL}/private-themes/oroOliveira/fonts/wlpvgxjLBV1hqnzfr-F8sEYMB0Yybp0mudRXeIqs.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Barlow Semi Condensed";
+  font-weight: 600;
+  font-style: normal;
+  src: url("${CHAT_COMPONENT_THEMES_URL}/private-themes/oroOliveira/fonts/wlpigxjLBV1hqnzfr-F8sEYMB0Yybp0mudRfp66_B2sj.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Roboto";
+  font-weight: 300;
+  font-style: normal;
+  src: url("${CHAT_COMPONENT_THEMES_URL}/private-themes/oroOliveira/fonts/Roboto-Light-webfont.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-style: normal;
+  src: url("${CHAT_COMPONENT_THEMES_URL}/private-themes/oroOliveira/fonts/Roboto-Regular-webfont.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-style: normal;
+  src: url("${CHAT_COMPONENT_THEMES_URL}/private-themes/oroOliveira/fonts/Roboto-Medium-webfont.woff") format("woff");
+}
